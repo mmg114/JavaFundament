@@ -8,11 +8,12 @@ Estas enumeraciones se utilizan cuando se tiene conocimiento completo con respec
 
 Aunque los enums y las clases en Java comparten algunas similitudes, como la capacidad de tener campos, métodos y constructores, hay diferencias clave entre ellos. Aquí hay algunas de las diferencias más destacadas:
 
-Instancias Limitadas:
+**Instancias Limitadas:**
 
 En un enum, las instancias están predefinidas y son finitas. Los enums son utilizados para representar conjuntos fijos y conocidos de constantes.
 En una clase, puedes crear instancias de la misma dinámicamente en cualquier momento, y el número de instancias no está predefinido.
-Constantes con Nombre:
+
+**Constantes con Nombre:**
 
 Las instancias de un enum son constantes con nombre. Cada valor en un enum tiene un nombre asociado, y esos nombres se utilizan para referirse a las instancias del enum.
 En una clase, las instancias no tienen nombres predefinidos.
@@ -24,7 +25,8 @@ Comparaciones más Seguras:
 
 Debido a que las instancias de un enum son constantes predefinidas, las comparaciones de igualdad (==) son más seguras. Por ejemplo, if (dia == DiaDeLaSemana.MARTES) { ... }.
 En las clases, las comparaciones de igualdad pueden depender de la implementación de los métodos equals() y hashCode().
-Enumeraciones Ordinales:
+
+**Enumeraciones Ordinales:**
 
 Los enums tienen un orden ordinal predeterminado basado en el orden en que se declaran las constantes en la enumeración.
 Las clases no tienen un orden ordinal predefinido.
@@ -37,4 +39,4 @@ Las clases generalmente no se utilizan de la misma manera en declaraciones switc
 
 ## Authors
 
-- [@mmg114](https://www.github.com/octokatherine)
+- [@mmg114](https://github.com/mmg114/JavaFundament/tree/main/Enums)
